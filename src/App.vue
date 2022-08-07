@@ -1,9 +1,12 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <nav class="navbar bg-light">
+    <div class="container ms-0 me-0">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/logo.png" alt="" width="30" height="24" />
+      </a>
+    </div>
   </nav>
-  <router-view/>
+  <router-view />
 </template>
 
 <style>
